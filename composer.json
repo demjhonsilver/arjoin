@@ -2,7 +2,7 @@
     "name": "dsilver/arjoin",
     "description": "A simple PHP string binder / URL-friendly slugs package.",
     "type": "library",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Arjoin\\": "src/"
+            "Arjoin\\": "src/Arjoin/"
         }
     },
     "homepage": "https://github.com/dsilver/arjoin",
