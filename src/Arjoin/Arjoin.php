@@ -1,6 +1,6 @@
 <?php
 
-namespace Arjoin;
+namespace dsilver\Arjoin;
 
 class joiner
 {

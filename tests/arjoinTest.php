@@ -1,9 +1,9 @@
 <?php
 
-namespace arjoin;
+namespace dsilver\Arjoin; 
 
 use PHPUnit\Framework\TestCase;
-use Arjoin\joiner;
+use dsilver\Arjoin\joiner; 
 
 class arjoinTest extends TestCase
 {
@@ -12,7 +12,7 @@ class arjoinTest extends TestCase
         $input = "Thís-Ís å Spéciäl Stríng!";
         $expectedOutput = "th-s-s-sp-ci-l-str-ng";
 
-        $output = joiner::select($input);
+        $output = joiner::select($input); // Make sure to use the correct method
 
         $this->assertEquals($expectedOutput, $output);
     }
