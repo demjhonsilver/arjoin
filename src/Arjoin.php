@@ -1,6 +1,6 @@
 <?php
 
-namespace dsilver\Arjoin; 
+namespace Arjoin;
 
 class joiner
 {
@@ -18,3 +18,4 @@ class joiner
         return $string;
     }
 }
+
