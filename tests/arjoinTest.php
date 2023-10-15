@@ -1,9 +1,8 @@
 <?php
 
-namespace Arjoin; 
+namespace dsilver\Arjoin; 
 
 use PHPUnit\Framework\TestCase;
-use Arjoin\joiner; 
 
 class arjoinTest extends TestCase
 {

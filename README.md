@@ -27,7 +27,7 @@ Arjoin will be automatically downloaded and added to your project.
 
 ## Release-notes
 
-Version 1.0.0-alpha.5
+Version 1.0.0-alpha.6
 
 ---------
 
