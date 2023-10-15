@@ -19,7 +19,7 @@ To use Arjoin in your PHP project, you can install it via Composer. Make sure yo
 ### To install the Arjoin, you can use the following composer command:
 
 ```bash
-composer require dsilver/Arjoin
+composer require dsilver/arjoin
 ```
 
 
@@ -27,7 +27,7 @@ Arjoin will be automatically downloaded and added to your project.
 
 ## Release-notes
 
-Version 1.0.0-alpha.6
+Version 1.0.0-alpha.7
 
 ---------
 
@@ -43,7 +43,7 @@ Arjoin provides a simple method to generate URL-friendly slugs from strings.
 ```php
 <?php
 
-use Arjoin\joiner;
+use dsilver\Arjoin\joiner;
 
 // Use your package's classes and methods
 $output = joiner::select("This is a Sample String");
@@ -65,7 +65,7 @@ add to your app.blade.php
 ----------
 
 ```html
-  {{ Arjoin\joiner::select("This is a Sample String") }}
+  {{ dsilver\Arjoin\joiner::select("This is a Sample String") }}
 ```
 
 -------
@@ -118,7 +118,7 @@ Advance examples:
 ```php
 <?php
 
-use Arjoin\joiner;
+use dsilver\Arjoin\joiner;
 
 // Create a Arjoin object with an initial string
 $chain =joiner::select("This is a Sample String");
@@ -139,7 +139,7 @@ echo $result; // Output the result
 ```php
 <?php
 
-use Arjoin\joiner;
+use dsilver\Arjoin\joiner;
 
 // Create a Arjoin object with an initial string
 $chain =joiner::select("This is a Sample String");
