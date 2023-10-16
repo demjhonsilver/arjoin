@@ -19,7 +19,7 @@ To use Arjoin in your PHP project, you can install it via Composer. Make sure yo
 ### To install the Arjoin, you can use the following composer command:
 
 ```bash
-composer require dsilver/arjoin:1.0.0-alpha.9
+composer require dsilver/arjoin
 ```
 
 
@@ -27,7 +27,7 @@ Arjoin will be automatically downloaded and added to your project.
 
 ## Release-notes
 
-Version 1.0.0-alpha.9
+Version 1.0.0
 
 ---------
 
