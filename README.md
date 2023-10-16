@@ -1,6 +1,6 @@
 # Arjoin - A simple PHP string binder / URL-friendly slugs package.
 
-Arjoin is a PHP package that provides a simple way to convert strings/characters to URL-friendly slugs by replacing spaces and special characters with hyphens. 
+Arjoin is a simple PHP string binder / URL-friendly slugs package. It can bypass the emojis, icons, or character symbols to convert them into an accessible string format. 
 
 
 ## Table of Contents
@@ -99,7 +99,7 @@ domain-dot-com/articles/the-benefits-of-regular-exercise
 example:
 
 ```php
-$characters = "Thís-Ís å Spéciäl Stríng!";
+$characters = "Thís-Ís å Spéciäl 😜Stríng! My heart❤️ #coding";
 
 $sample = joiner::select($characters);
 
@@ -109,7 +109,7 @@ $sample = joiner::select($characters);
 result: 
 
 -----
-th-s-s-sp-ci-l-str-ng
+th-s-s-sp-ci-l-str-ng-my-heart-coding
 
 --------
 Advance examples:
